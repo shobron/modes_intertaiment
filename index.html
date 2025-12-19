@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Penyewaan Sound System & Orgen Tunggal</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="icon" href="img/logo.jpeg" type="image/jpeg" />
+    <link rel="apple-touch-icon" href="img/logo.jpeg" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container nav-row">
+        <a class="brand" href="index.html">
+          <img src="img/logo.jpeg" alt="Logo" class="logo" />
+          <span class="brand-name">Modes Entertainment</span>
+        </a>
+        <nav class="nav">
+          <a href="index.html">Home</a>
+          <a href="#services">Layanan</a>
+          <a href="#gallery">Galeri</a>
+          <a href="#contact">Kontak</a>
+          <a class="btn login" href="login.html">Masuk</a>
+        </nav>
+        <button class="nav-toggle" aria-label="toggle navigation">☰</button>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="container hero-inner">
+          <div class="hero-text">
+            <h1>Penyewaan Sound System & Orgen Tunggal</h1>
+            <p class="lead">
+              Paket lengkap PA, sound system, penyanyi, pemain keyboard, untuk segala keperluan
+              sesuai dengan kebutuhan, kami profesional.
+            </p>
+            <div class="hero-actions">
+              <a class="btn primary" href="#gallery">Lihat Galeri</a>
+              <a
+                class="btn outline"
+                href="https://wa.me/628161667188?text=Halo%20Modes%20Entertainment%2C%20saya%20ingin%20memesan%20Hiburan%20Orgen%20Tunggal%20untuk%20acara%20pada%20%5Btanggal%5D.%20Mohon%20informasi%20ketersediaan%2C%20paket%2C%20dan%20estimasi%20harga.%20Terima%20kasih"
+                target="_blank"
+                rel="noopener"
+                >Pesan Sekarang</a
+              >
+            </div>
+          </div>
+          <div class="hero-image" style="display: none" aria-hidden="true"></div>
+        </div>
+      </section>
+
+      <section id="services" class="container services">
+        <h2 class="section-title">Layanan Kami</h2>
+        <div class="cards">
+          <article class="card">
+            <h3>PA System</h3>
+            <p>Speaker berkualitas untuk indoor dan outdoor.</p>
+          </article>
+          <article class="card">
+            <h3>Mixer & Mikrofon</h3>
+            <p>Mixer digital & analog, mikrofon nirkabel, serta teknisi berpengalaman.</p>
+          </article>
+          <article class="card">
+            <h3>Teknisi & Instalasi</h3>
+            <p>Setup cepat, uji suara menyeluruh, dan dukungan teknisi yang berpengalaman.</p>
+          </article>
+        </div>
+      </section>
+
+      <section id="gallery" class="container gallery">
+        <h2 class="section-title">GALERI KEGIATAN DAN PERALATAN</h2>
+
+        <div class="gallery-tabs">
+          <button class="tab active" data-target="equipment">Peralatan</button>
+          <button class="tab" data-target="event">Kegiatan</button>
+        </div>
+
+        <div id="gallery-equipment" class="grid gallery-grid" aria-live="polite"></div>
+        <div
+          id="gallery-event"
+          class="grid gallery-grid"
+          style="display: none"
+          aria-live="polite"
+        ></div>
+      </section>
+
+      <section id="contact" class="container contact">
+        <h2 class="section-title">Kontak & Pemesanan</h2>
+        <p>Hubungi kami untuk penawaran harga, ketersediaan tanggal, dan kebutuhan teknis.</p>
+        <ul class="contact-list">
+          <li>WhatsApp: <strong>0816-1667-188</strong></li>
+          <li>Instagram: <strong>@modes_intertaiment</strong></li>
+          <li>Email: <strong>info@modes_intertaiment.id</strong></li>
+        </ul>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-row">
+        <div>© <span id="year"></span> Modes Entertainment Sound — Semua hak dilindungi</div>
+        <div class="footer-links">Made with ♥ for events</div>
+      </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+    <script src="js/gallery.js"></script>
+  </body>
+</html>
